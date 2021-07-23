@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+
+html {
+  font-size: 1.2rem;
+}
+body {
+  font-family: "Patrick Hand", cursive;
+}
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 1170px;
+}
+header {
+  height: 100vh;
+  background-color: #f0fff0;
+}
+.nav-link {
+  font-weight: 900;
+}
+.edu-btn {
+  background-color: #21b573;
+  color: #fff;
+}
+.header__primary {
+  font-size: 1.6rem;
+  color: #fd511a;
+}
+.header__secondary {
+  font-size: 4rem;
+  line-height: 1;
+}
+.header__secondary span {
+  color: #21b573;
+}
+
+.header__content {
+  margin-top: 6rem;
+}
+
+section {
+  margin: 6rem 0;
+}
+
+.learn__item {
+  background-color: #f0fff0;
+  padding: 3rem 0;
+  border-radius: 10px;
+  transition: all linear 0.2s;
+}
+
+.learn__item img {
+  margin-bottom: 1.7rem;
+}
+.learn__item:hover {
+  background-color: #fff;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.089);
+  transform: translateY(-1rem);
+}
+section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+section ul li {
+  list-style-type: none;
+  background: #eee;
+  padding: 12px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+section ul li.active {
+  background: #03a9f4;
+  color: #fff;
+}
+
+.card {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.089);
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  padding-bottom: 1.2rem;
+}
+.course__info {
+  font-size: 0.9rem;
+}
+.course__duration {
+  margin-right: 3rem;
+}
+.testimonial .row {
+  margin-left: 7rem;
+}
+.testimonial img {
+  margin-left: 4rem;
+}
+footer {
+  background-color: #282531;
+  height: 400px;
+  padding: 6rem 0;
+}
+.title-head {
+  font-weight: bolder;
+}
+
+/* ------------------------------- */

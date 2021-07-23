@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-school</title>
+    <link rel="shortcut icon" href="icon/favIcon.jpg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand mt-0" href="#">
+            <img src="./icon/Logo.png" alt="" width="150px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" aria-current="page" href="#">Books</a>
+              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#">Others</a>
+              <a class="nav-link" href="#">Blogs</a>
+              <button class="btn edu-btn px-3 ms-3 rounded-pill">
+                Sign in
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row d-flex align-items-center header__content">
+          <div class="col-lg-6">
+            <h3 class="header__primary">Are you ready to Learn?</h3>
+            <h1 class="header__secondary mb-4">
+              Learn With fun<br />
+              on <span>any schedule</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius
+              blandit facilisis quam netus.
+            </p>
+            <button class="btn edu-btn px-3 rounded-pill">Get started</button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="./images/Illustration.png"
+              width="554px"
+              height="346px"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container learn">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center flex-column learn__item">
+              <img src="./icon/book.png" alt="" width="66px" height="85px" />
+              <h2 class="learn__heading">1500+ Topic</h2>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center flex-column learn__item">
+              <img src="./icon/Student.png" alt="" width="66px" height="85px" />
+              <h2 class="learn__heading">1800+ Students</h2>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center flex-column learn__item">
+              <img src="./icon/Test.png" alt="" width="66px" height="85px" />
+              <h2 class="learn__heading">9K+ Test Token</h2>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center flex-column learn__item">
+              <img
+                src="./icon/Students.png"
+                alt=""
+                width="66px"
+                height="85px"
+              />
+              <h2 class="learn__heading">2000+ Student</h2>
+              <p>Learn Anythings</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses container">
+        <h1 class="text-center mb-5">Online Courses</h1>
+
+        <ul>
+          <li class="list active" data-filter="all">All</li>
+          <li class="list" data-filter="psych">Psych</li>
+          <li class="list" data-filter="psychons">Psychons</li>
+          <li class="list" data-filter="psychology">Psychology</li>
+        </ul>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col psych">
+            <div class="card h-100">
+              <img
+                src="./images/Morder psyc.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn btn-info px-3 rounded-3">Buy Course</button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col psychons">
+            <div class="card h-100">
+              <img
+                src="./images/Morder pychons.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn btn-warning px-3 rounded-3">
+                  Buy Course
+                </button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col psychology">
+            <div class="card h-100">
+              <img
+                src="./images/Morder pyschology.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn edu-btn px-3 rounded-3">Buy Course</button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col psych">
+            <div class="card h-100">
+              <img
+                src="./images/Morder pychons.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn btn-warning px-3 rounded-3">
+                  Buy Course
+                </button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col psychons">
+            <div class="card h-100">
+              <img
+                src="./images/Morder psyc.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn btn-secondary px-3 rounded-3">
+                  Buy Course
+                </button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col psychology">
+            <div class="card h-100">
+              <img
+                src="./images/Morder pyschology.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn btn-danger px-3 rounded-3">
+                  Buy Course
+                </button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col psych">
+            <div class="card h-100">
+              <img
+                src="./images/Morder psyc.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn btn-danger px-3 rounded-3">
+                  Buy Course
+                </button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col psychons">
+            <div class="card h-100">
+              <img
+                src="./images/Morder pyschology.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn btn-primary px-3 rounded-3">
+                  Buy Course
+                </button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col psychology">
+            <div class="card h-100">
+              <img
+                src="./images/Morder pychons.png"
+                class="card-img-top p-3"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="btn btn-success px-3 rounded-3">
+                  Buy Course
+                </button>
+              </div>
+              <div class="course__info ms-3 d-flex align-items-center">
+                <div class="course__duration">
+                  <i class="fas fa-calendar-week"></i>
+                  <span class="ms-2">Start 20 April, 2021</span>
+                </div>
+                <div class="students">
+                  <i class="fas fa-user-friends"></i>
+                  <span class="ms-2">60 seats</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial container">
+        <h2 class="text-center mb-5">Testimonial</h2>
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-3">
+            <img src="./images/Man.png" width="120px" height="120px" alt="" />
+          </div>
+          <div class="col-lg-9">
+            <p class="w-75">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <p class="text-white">
+                Millions of people of all ages and from around the world are
+                improving their lives with us
+              </p>
+            </div>
+            <div class="col-lg-3">
+              <ul class="course text-white">
+                <li class="title-head">Course</li>
+                <li>Graphic Design</li>
+                <li>Web Design</li>
+                <li>Business</li>
+                <li>Marketing</li>
+                <li>Engineering</li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <ul class="text-white">
+                <li class="title-head">terms</li>
+                <li>Course</li>
+                <li>Graphic Design</li>
+                <li>Web Design</li>
+                <li>Business</li>
+                <li>Marketing</li>
+                <li>Engineering</li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <ul class="text-white">
+                <li class="title-head">useful-links</li>
+                <li>Course</li>
+                <li>Graphic Design</li>
+                <li>Web Design</li>
+                <li>Business</li>
+                <li>Marketing</li>
+                <li>Engineering</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p class="text-center text-white mt-2">
+          &copy; All rights reserved ,2021. RafiZaman
+        </p>
+      </footer>
+    </main>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".list").click(function () {
+          const value = $(this).attr("data-filter");
+          if (value == "all") {
+            $(".col").show("1000");
+          } else {
+            $(".col")
+              .not("." + value)
+              .hide("1000");
+            $(".col")
+              .filter("." + value)
+              .show("1000");
+          }
+        });
+
+        $(".list").click(function () {
+          $(this).addClass("active").siblings().removeClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
